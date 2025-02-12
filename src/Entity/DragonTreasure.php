@@ -22,6 +22,9 @@ class DragonTreasure
     #[ORM\Column(type: Types::TEXT)]
     private ?string $description = null;
 
+    /**
+     * @var This is the estimated value of the treasure in gold coins
+     */
     #[ORM\Column]
     private ?int $value = null;
 
